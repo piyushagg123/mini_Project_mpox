@@ -35,7 +35,7 @@ st.markdown(
 )
 
 # Load pre-trained models
-model_1 = tf.keras.models.load_model('model_DenseNet121.h5')
+model_1 = tf.keras.models.load_model('model_EfficientNetB0.h5')
 model_2 = tf.keras.models.load_model('model_InceptionV3.h5')
 model_3 = tf.keras.models.load_model('model_MobileNet.h5')
 
